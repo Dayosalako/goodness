@@ -95,14 +95,6 @@ document.addEventListener("DOMContentLoaded", () => {
         window.scrollTo({ top: 0, behavior: "smooth" });
     });
 
-    let studentCount = 0; // Initial count
-
-function increaseCount() {
-    studentCount++;
-    document.getElementById("student-count").textContent = studentCount;
-}
-
-
     // Typing Effect
     const typingText = document.querySelector(".typing-text");
     if (typingText) {
